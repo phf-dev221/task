@@ -15,7 +15,7 @@ const TacheAdd = () => {
     }
 
     const submit = (e)=> {
-        console.log(inputs)
+        // console.log(inputs)
         e.preventDefault()
         crud.store(inputs)
         .then(res=>{
